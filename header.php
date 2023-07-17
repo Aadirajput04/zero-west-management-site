@@ -1,7 +1,7 @@
 <header>
 
     <div class="logo">
-        <img src="./assets/img/main-logo.png" alt="">
+       <a href="./index.php"><img src="./assets/img/main-logo.png" alt=""></a>
     </div>
     <div class="navbar-box">
         <div class="social-line">
@@ -21,10 +21,10 @@
         </div>
         <div class="navlist">
             <ul>
-                <li> <a href="">home</a> </li>
-                <li> <a href="">about us</a> </li>
-                <li> <a href="">product & services</a> </li>
-                <li> <a href="">contact us</a> </li>
+                <li> <a href="./index.php">Home</a> </li>
+                <li> <a href="./about-us.php">About us</a> </li>
+                <li> <a href="./product&services.php">Product & Services</a> </li>
+                <li> <a href="./contact-us.php">Contact us</a> </li>
                 <li> <a href=""><img src="./assets/img/search-icon.svg" alt=""></a> </li>
             </ul>
 
