@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+
+header {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 5rem;
+
+
+}
+
+
+.social-line {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17rem;
+    padding: 1rem;
+    border-bottom: 2px solid #70B55C;
+}
+
+
+.navbar-box {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-box .head-left-contact a{
+    color: #333;
+font-family: 'Inter',sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.navbar-box .head-left-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar-box .right-social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+
+.navbar-box a {
+    display: flex;
+    color: black;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+.navbar-box  .navlist a:hover{
+    color: #70B55C;
+   
+}
+
+
+.navbar-box .navlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.navbar-box .navlist ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: 1rem;
+}
+
+.navbar-box .navlist li {
+    list-style-type: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ===================================header css strats header============================== */
+
+
+
+
+
+
+
