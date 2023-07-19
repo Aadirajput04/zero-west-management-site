@@ -52,6 +52,11 @@
  ?>
 
 <?php
+  include "contact-us-section.php";
+
+ ?>
+
+<?php
   include "footer.php";
 
  ?>
