@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container width-p">
     <div class="box left">
         <h2>Few Reasons Why You Choose Us To Protect Nature!</h2>
         <div class="tabs">

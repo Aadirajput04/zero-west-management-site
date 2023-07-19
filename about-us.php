@@ -20,9 +20,37 @@
 <?php
    include "header.php";
   ?>
+<section class="head-main">
+  <h1>About US</h1>
+</section>
+
+
+
+
+
+
    <?php
    include "reasons.php";
   ?>
+
+<?php
+   include "videos.php";
+
+  ?>
+
+
+
+<?php
+  include "blog.php";
+
+ ?>
+
+
+<?php
+  include "feedback.php";
+
+ ?>
+
 
 
 </body>

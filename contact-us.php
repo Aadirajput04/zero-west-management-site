@@ -17,6 +17,25 @@
     <title>contact us</title>
 </head>
 <body>
+<?php
+   include "header.php";
+  ?>
+  
+<section class="head-main">
+  <h1>Contact US</h1>
+</section>
+
+
+
+
+
+<?php
+  include "feedback.php";
+
+ ?>
+
+
+
     
 </body>
 </html>
