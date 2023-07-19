@@ -1,4 +1,4 @@
-<footer>
+<footer class="width-p">
     <div class="upper-footer">
         <div class="left-footer-box">
             <div class="logo-footer-box">
