@@ -1,40 +1,69 @@
 <header>
+    <nav class='navbar width-p side-padding'>
 
-    <div class="logo">
-       <a href="./index.php"><img src="./assets/img/main-logo.png" alt=""></a>
+        <?php
+function isCurrentPage($pageName)
+{
+    $currentPage = basename($_SERVER['PHP_SELF']);
+    return $currentPage === $pageName;
+}
+?>
+        <a href="./index.php">
+            <img class="main-logo" src="./assets/img/nav-logo.png" alt=""></a>
+        <img class='burger-btn' src="./imgs/burger-btn.png" alt="burger-manu">
+        <ul class='nav-list '>
+            <li><a <?php if (isCurrentPage('index.php')) echo 'class="active-nav"' ; ?> href="./index.php"  > Home</a>
+            </li>
+            <li><a <?php if (isCurrentPage('about-us.php')) echo 'class="active-nav"' ; ?> href="./about-us.php"  > About
+                    us</a></li>
+            <li><a <?php if (isCurrentPage('product&services.php')) echo 'class="active-nav"' ; ?> href="./product&services.php"  >
+                    Products & services</a></li>
+           
+            <li><a <?php if (isCurrentPage('contact-us.php')) echo 'class="active-nav"' ; ?> href="./contact-us.php"  >
+                    Contact Us</a></li>
+
+        </ul>
+
+
+    <a class="get-consult" href="./contact-us.php">Get Best Quote >></a>
+
+    </nav>
+    <div class="menu hidden page-width">
+        <ul>
+            <li><a <?php if (isCurrentPage('index.php')) echo 'class="active-nav"' ; ?> href="./index.php"> Home</a>
+            </li>
+            <li><a <?php if (isCurrentPage('About-us.php')) echo 'class="active-nav"' ; ?> href="./About-us.php"> About
+                    us</a></li>
+            <li><a <?php if (isCurrentPage('product&services.php')) echo 'class="active-nav"' ; ?> href="./product&services.php">
+                Products & services</a></li>
+            
+            <li><a <?php if (isCurrentPage('contact-us.php')) echo 'class="active-nav"' ; ?> href="./contact-us.php">
+                    Contact Us</a></li>
+        </ul>
     </div>
-    <div class="navbar-box">
-        <div class="social-line">
-            <div class="head-left-contact">
-                <a href=""><img src="./assets/img/call.svg" alt="">+91 99260 98541</a>
-                <a href=""><img src="./assets/img/mail.svg" alt="">Getinfo@gmail.com</a>
-            </div>
-
-            <div class="right-social-icons">
-                <a href=""><img src="./assets/img/Facebook - Negative.svg" alt=""></a>
-                <a href=""><img src="./assets/img/Twitter - Negative.svg" alt=""></a>
-                <a href=""><img src="./assets/img/Group.svg" alt=""></a>
-
-
-
-            </div>
-        </div>
-        <div class="navlist">
-            <ul>
-                <li> <a href="./index.php">Home</a> </li>
-                <li> <a href="./about-us.php">About us</a> </li>
-                <li> <a href="./product&services.php">Product & Services</a> </li>
-                <li> <a href="./contact-us.php">Contact us</a> </li>
-                <li> <a href=""><img src="./assets/img/search-icon.svg" alt=""></a> </li>
-            </ul>
-
-
-        </div>
-
-
-    </div>
-
-
-
-
 </header>
+<script>
+
+    const btn = document.querySelector('.burger-btn');
+    const menu = document.querySelector('.menu');
+    const navbar = document.querySelector('.navbar');
+
+    if (window.innerWidth > 740) {
+        menu.style.height = 0;
+        menu.style.opacity = 0;
+    };
+
+    btn.addEventListener('click', function () {
+        if (menu.style.height == '0px') {
+            menu.style.height = '140px';
+            navbar.style.boxShadow = 'none';
+            menu.style.opacity = 1;
+        } else {
+            menu.style.height = 0;
+            menu.style.opacity = 0;
+
+        }
+    })
+
+
+</script>

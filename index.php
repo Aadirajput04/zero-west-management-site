@@ -21,28 +21,51 @@
 
 <body>
 
-   <?php
+
+
+   <section class="hero-main-section">
+
+      <?php
    include "header.php";
   ?>
 
-   <div class="carousel-container ">
-      <div class="carousel-images">
+      <div class="hero-main-text">
+         <div class="hero-child-text-box">
 
-         <img src="./assets/img/home-bg.png" alt="">
-         <img src="./assets/img/home-bg.png" alt="">
-         <img src="./assets/img/home-bg.png" alt="">
+            <p class="first-lable">Price: 2 / sqmeter</p>
+            <h1>Waste Measurement Drone Mapping Service</h1>
+            <p>Details: Zero Waste Management is in collaboration for drone mapping & Survey with Wastevoltaic. We have
+               micro category survey-grade deone...</p>
+
+            <a class="hero-btn" href="#">Get Best Quote >></a>
+
+
+
+         </div>
+
+
       </div>
-      <div class="carousel-content">
-         <p>Price: 2 / sqmeter</p>
-         <h2>Waste Measurement Drone Mapping Service</h2>
-         <p>Details: Zero Waste Management is in collaboration for drone mapping & Survey with Wastevoltaic. We have
-            micro category survey-grade deone...</p>
-         <button class="button-hover"><span> Get Best Quote >></span></button>
-      </div>
-      <div class="carousel-arrow">
-         <!-- <img src="./assets/img/arrow-rightsvg.svg" alt=""> -->
-      </div>
-   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </section>
+
 
 
 
@@ -51,22 +74,22 @@
    <?php
    include "reasons.php";
   ?>
-  
-  <?php
+
+   <?php
   include "videos.php";
  ?>
 
 
 
 
-<?php
+   <?php
   include "product-section.php";
 
  ?>
 
 
 
-<?php
+   <?php
   include "feedback.php";
 
  ?>
@@ -82,7 +105,7 @@
 
 
 
-<?php
+   <?php
   include "blog.php";
 
  ?>
@@ -93,7 +116,7 @@
 
 
 
-<?php
+   <?php
   include "contact-us-section.php";
 
  ?>
@@ -103,32 +126,12 @@
 
 
 
- 
-<?php
+
+   <?php
   include "footer.php";
 
  ?>
 
-
-   <script>
-      $(document).ready(function () {
-         var images = ['home-bg.png', 'home-bg.png', 'home-bg.png'];
-
-         function changeBackground() {
-            var randomIndex = Math.floor(Math.random() * images.length);
-            var imageUrl = './assets/img/home-bg.png' + images[randomIndex];
-            $('.carousel-images').css('transform', 'translateX(-' + randomIndex * 100 + '%)');
-            $('.carousel-images img').css('background-image', 'url(' + home - bg.png + ')');
-         }
-
-         $('.carousel-arrow').click(function () {
-            changeBackground();
-         });
-
-         changeBackground();
-      });
-
-   </script>
 
 </body>
 
