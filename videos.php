@@ -1,4 +1,4 @@
-<section class="main-video-section">
+<section class="main-video-section width-p">
     <h1>Latest Videos</h1>
 
 
@@ -13,7 +13,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button><span>Get Best Quote</span></button>
+                <button class="hero-btn">Get Best Quote >></button>
             </div>
 
 
@@ -27,7 +27,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button><span>Get Best Quote</span></button>
+                <button class="hero-btn">Get Best Quote >></button>
             </div>
 
 
@@ -41,7 +41,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button><span>Get Best Quote</span></button>
+                <button class="hero-btn">Get Best Quote >></button>
             </div>
 
 

@@ -17,13 +17,33 @@
     <title>product & services</title>
 </head>
 <body>
-<?php
-   include "header.php";
-  ?>
+
+
+
 
 <section class="head-main">
-  <h1>Product & services</h1>
+
+<?php
+include "header.php";
+?>
+
+<div class="head-maintext-box">
+
+<div class="small-head-text">
+
+  <h1>product & services</h1>
+  <img src="./assets/img/dustbin-man-222222.png" alt="">
+
+</div>
+</div>
+
+
+
+
 </section>
+
+
+>
 
 
 

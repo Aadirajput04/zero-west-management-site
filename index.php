@@ -23,7 +23,7 @@
 
 
 
-   <section class="hero-main-section">
+   <section class="hero-main-section width-p">
 
       <?php
    include "header.php";
@@ -35,11 +35,12 @@
             <p class="first-lable">Price: 2 / sqmeter</p>
             <h1>Waste Measurement Drone Mapping Service</h1>
             <p>Details: Zero Waste Management is in collaboration for drone mapping & Survey with Wastevoltaic. We have
-               micro category survey-grade deone...</p>
+               micro category survey-grade deone...
+            </p>
 
             <a class="hero-btn" href="#">Get Best Quote >></a>
 
-
+            <img class="dustbin-people" src="./assets/img/dustbin-people-2.png " alt="">
 
          </div>
 

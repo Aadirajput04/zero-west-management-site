@@ -209,6 +209,7 @@ header li {
 
 .container .box {
     flex-basis: 55%;
+    position: relative;
 
     padding: 10px;
     display: flex;
@@ -258,6 +259,19 @@ header li {
 
 }
 
+
+
+.small-img {
+    top: 0;
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+
+
 .container .tab-content.active {
     display: block;
 }
@@ -287,8 +301,9 @@ p {
 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
+    margin-bottom: 130px;
 }
 
 .hero-main-section .hero-main-text {
@@ -297,17 +312,22 @@ p {
     justify-content: center;
     align-items: center;
 
-    padding: 60px 150px;
+
+
+    padding: 60px 150px 130px 150px;
 }
 
 
-.hero-main-text .hero-child-text-box{
+.hero-main-text .hero-child-text-box {
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    justify-content: center;
     border: 2px solid #535d68;
+    padding: 30px 30px 100px 30px;
 }
 
 .hero-main-text h1 {
@@ -331,7 +351,7 @@ justify-content: center;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    max-width: 938px    ;
+    max-width: 938px;
 }
 
 
@@ -340,8 +360,9 @@ justify-content: center;
 
 
 
-.hero-main-section .hero-btn {
+.hero-btn {
     display: flex;
+    margin-top: 25px;
     max-width: 234px;
     padding: 14px 25px;
     text-decoration: none;
@@ -363,9 +384,10 @@ justify-content: center;
 
 .hero-main-section .hero-main-text .first-lable {
     background-color: #FFF;
-    padding-top: 0;
+    position: absolute;
+    top: -4%;
     max-width: 238px;
-    padding: 3px 22px;
+    padding: 0px 22px;
     align-items: center;
     color: #70B55C;
 
@@ -374,8 +396,10 @@ justify-content: center;
 
 
 
-
-
+.dustbin-people {
+    position: absolute;
+    bottom: -80%;
+}
 
 
 
@@ -394,11 +418,12 @@ justify-content: center;
 
 
 .main-video-section {
-    height: 90vh;
+    /* height: 90vh; */
     margin-top: 3rem;
 
     display: flex;
     flex-wrap: wrap;
+    background: url(../assets/img/background-videos.svg);
     gap: 3rem;
     flex-direction: column;
     text-align: center;
@@ -406,8 +431,9 @@ justify-content: center;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px 0;
 
-    background: url(../assets/img/background-videos.svg);
+
 }
 
 .main-video-section h1 {
@@ -473,29 +499,57 @@ justify-content: center;
 
 
 .head-main {
-    display: flex;
-    height: 40vh;
-    align-items: center;
+/* 
+    height: 50vh; */
+
     /* justify-content: ; */
-    background: url(../assets/img/all\ head\ section.png);
+    background: url(../assets/img/head-lable-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 130px;
 }
 
 .head-main h1 {
-    color: #FFF;
+    color: var(--white, #FFF);
     font-family: 'Rajdhani', sans-serif;
     font-size: 74px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 14rem;
 }
+
+.small-head-text{
+    border: 2px solid #535d68;
+    padding: 71px 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small-head-text img{
+    position: absolute;
+    bottom: -65%;
+}
+
+
+
+.head-maintext-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 150px;
+    position: relative;
+}
+
 
 
 /* =========================================================blog section starts here===================== */
 .main-blog-container {
     display: flex;
     margin-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
@@ -674,6 +728,9 @@ justify-content: center;
     gap: 2rem;
     align-items: center;
     padding: 3rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-boxes {
@@ -685,6 +742,32 @@ justify-content: center;
 }
 
 
+.view-more {
+    color: var(--white, #FFF) !important;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 30px;
+    background-color: #70B55C;
+    border-radius: 10px;
+}
+
+
+.product-box h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+.product-box p {
+    padding-top: 0;
+}
 
 .product-main-box h1 {
     text-align: center;
@@ -716,6 +799,9 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.30);
 }
 
 
@@ -892,6 +978,14 @@ footer .subscribe {
     width: 100%;
     border-radius: 5px;
     background: #70B55C;
+    padding: 14px 140px;
+    border: none;
+    color: #FFF;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
 }
 
@@ -902,6 +996,11 @@ footer .subscribe {
 footer .copyright-box {
     border-top: 1px solid #7F7F7F;
     opacity: 0.80;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 footer input#emailInput {
@@ -926,15 +1025,6 @@ footer hr {
 }
 
 
-
-footer .copyright-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 4rem;
-    padding-right: 4rem;
-
-}
 
 footer .copyright-box .right-copyright {
     display: flex;
@@ -971,7 +1061,7 @@ footer .copyright-box a {
 /* =======================================contact-us-section started----------------================================= */
 .contact-us-container {
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -980,12 +1070,20 @@ footer .copyright-box a {
 .contact-us-container .contact-us-image img {
     height: 570px;
     width: 776px;
-    position: absolute;
-    border-radius: 18.507px;
-    z-index: -1;
-    top: 0;
-    left: 0;
 
+    border-radius: 18.507px;
+
+}
+
+.dark {
+    background-color: #333 !important;
+    color: #FFF !important;
+}
+
+
+.letter-send {
+    width: 186px;
+    height: 85px;
 }
 
 .contact-us-container .contact-form {
@@ -999,7 +1097,6 @@ footer .copyright-box a {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    translate: 529px 84px;
 
 
 
@@ -1070,18 +1167,39 @@ footer .copyright-box a {
 .contact-text-box .address-box {
     width: 388px;
     border-radius: 10px;
-    background: #FFF;
+    background-color: #70B55C;
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.05);
-    height: 364px;
-    padding: 35px;
-    translate: 0 -240px;
+
+    padding: 110px 40px;
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+
+.contact-text-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-text-box .address-box p {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+    color: #FFF;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.846px;
+    /* 146.885% */
+}
+
+.submit-box {
+    display: flex;
+    justify-content: flex-end;
+
 }

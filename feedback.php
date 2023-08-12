@@ -1,4 +1,4 @@
-<section class="testimonials">
+<section class="testimonials width-p">
     <div class="left-testi">
         <div class="first-testi">
             <div class="user-info">
