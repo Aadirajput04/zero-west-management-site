@@ -21,9 +21,9 @@
 <body>
 
 
-  <section class="head-main">
+  <section class="head-main width-p">
 
-      <?php
+    <?php
      include "header.php";
      ?>
 
@@ -51,6 +51,65 @@
    include "reasons.php";
   ?>
 
+  <section class="about-info-sum side-padding width-p">
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+    
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+    
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+    
+    <div class="about-info-box">
+
+      <h2>Our Certifications</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus blandit diam. In hac habitasse platea
+        dictumst. In velit tortor, tempor non enim vel, facilisis malesuada sem. Nam egestas eu felis sed auctor.
+        Pellentesque a nunc egestas, eleifend elit dapibus, fringilla libero. Proin sed finibus odio, eget pellentesque
+        nisl.</p>
+    </div>
+
+
+
+
+  </section>
+
+<!-- 
   <?php
    include "videos.php";
 
@@ -67,7 +126,7 @@
   <?php
   include "feedback.php";
 
- ?>
+ ?> -->
 
   <?php
   include "contact-us-section.php";

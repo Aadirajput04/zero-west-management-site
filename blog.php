@@ -6,6 +6,7 @@
 
     <div class="blog-boxes">
         <div class="blog-box">
+            <a href="./blog-main.php">
 
             <div class="blog-img">
                 <img src="./assets/img/blogs-img.jpg" alt="" width="376px">
@@ -20,7 +21,7 @@
                     <p><img src="./assets/img/person.svg" alt=""> By Wilson Workman</p>
                 </div>
             </div>
-
+            </a>
         </div>
         <div class="blog-box">
 

@@ -13,7 +13,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button class="hero-btn">Get Best Quote >></button>
+               <a href="./videos-main.php"> <button class="hero-btn">Get Best Quote >></button></a>
             </div>
 
 
@@ -27,7 +27,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button class="hero-btn">Get Best Quote >></button>
+                <a href="./videos-main.php"> <button class="hero-btn">Get Best Quote >></button></a>
             </div>
 
 
@@ -41,7 +41,7 @@
             </div>
             <div class="text-down">
                 <h3>Waste Measurement Drone Mapping Service</h3>
-                <button class="hero-btn">Get Best Quote >></button>
+                <a href="./videos-main.php"> <button class="hero-btn">Get Best Quote >></button></a>
             </div>
 
 

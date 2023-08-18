@@ -11,8 +11,13 @@
 
 }
 
+body {
+    position: relative;
+    height: 100%;
+}
+
 .width-p {
-    max-width: 1440px;
+    max-width: 1920px;
     margin: auto;
 
 }
@@ -35,7 +40,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
-    border-bottom: 2px solid #535d68;
+    border-bottom: 2px solid #798189;
     width: 100%;
     background-color: transparent;
     /* Transparent black background */
@@ -121,7 +126,7 @@ ul li a {
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
 
     cursor: pointer;
 }
@@ -326,7 +331,7 @@ p {
     position: relative;
     gap: 15px;
     justify-content: center;
-    border: 2px solid #535d68;
+    border: 2px solid #798189;
     padding: 30px 30px 100px 30px;
 }
 
@@ -499,7 +504,7 @@ p {
 
 
 .head-main {
-/* 
+    /* 
     height: 50vh; */
 
     /* justify-content: ; */
@@ -519,8 +524,8 @@ p {
     line-height: normal;
 }
 
-.small-head-text{
-    border: 2px solid #535d68;
+.small-head-text {
+    border: 2px solid #798189;
     padding: 71px 255px;
     display: flex;
     justify-content: center;
@@ -528,14 +533,14 @@ p {
 }
 
 
-.small-head-text img{
+.small-head-text img {
     position: absolute;
     bottom: -65%;
 }
 
 
 
-.head-maintext-box{
+.head-maintext-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -546,6 +551,95 @@ p {
 
 
 /* =========================================================blog section starts here===================== */
+
+.blog-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blog-second h1 {
+    color: #333;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 85.938% */
+}
+
+
+.blog-second .blog-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+.blog-second .blog-detail h2 {
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blog-second .blog-detail p {
+    color: #7F7F7F;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-second .user-info p {
+    color: #333;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-second h1{
+    padding-bottom: 50px;
+}
+
+
+.blog-second{
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.blog-detail .user-info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.blog-detail .user-info p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
 .main-blog-container {
     display: flex;
     margin-top: 2rem;
@@ -704,6 +798,10 @@ p {
     padding: 8px 16px !important;
     font-weight: 600;
     line-height: normal;
+    background-color: #70b55c;
+    max-width: max-content;
+    border-radius: 5px;
+    border: none;
 }
 
 .right-testi .testi-head-text {
@@ -798,10 +896,11 @@ p {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 25px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.30);
+
 }
 
 
@@ -1080,14 +1179,18 @@ footer .copyright-box a {
     color: #FFF !important;
 }
 
+.dark p {
+    color: #FFF;
+}
 
 .letter-send {
     width: 186px;
     height: 85px;
 }
 
-.contact-us-container .contact-form {
+.contact-form {
     height: 560px;
+    position: relative;
     width: 710px;
     padding: 40px 47px 40px 40px;
     border-radius: 10px;
@@ -1103,7 +1206,7 @@ footer .copyright-box a {
 
 }
 
-.contact-us-container .contact-form h1 {
+.contact-form h1 {
     color: #202636;
     font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
@@ -1114,7 +1217,7 @@ footer .copyright-box a {
 }
 
 
-.contact-us-container .contact-form p {
+.contact-form p {
     color: #4A4A4A;
     font-family: 'Rajdhani', sans-serif;
     font-size: 21px;
@@ -1164,7 +1267,7 @@ footer .copyright-box a {
 
 }
 
-.contact-text-box .address-box {
+.address-box {
     width: 388px;
     border-radius: 10px;
     background-color: #70B55C;
@@ -1185,7 +1288,7 @@ footer .copyright-box a {
     align-items: center;
 }
 
-.contact-text-box .address-box p {
+.address-box p {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -1198,8 +1301,201 @@ footer .copyright-box a {
     /* 146.885% */
 }
 
-.submit-box {
+.contact-text-box .submit-box {
     display: flex;
     justify-content: flex-end;
 
+}
+
+
+.contact-main-button {
+    width: 100%;
+    border: none;
+    background-color: #70B55C;
+    padding: 15px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.contact-letter {
+    position: absolute;
+    right: 240px;
+    /* top: 20px; */
+    bottom: 50px;
+}
+
+.contact-page-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+/* ============================================================about-section-----info---================= */
+
+.about-info-sum {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.about-info-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 603px;
+    gap: 15px;
+    padding-top: 30px;
+
+}
+
+.about-info-box h2 {
+    padding: 20px 30px;
+
+
+    max-width: max-content;
+    border-radius: 5px;
+    background: #FEFEFE;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
+}
+
+
+.prodcut-text a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--primery, #70B55C);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.big-section .prodcut-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
+
+
+}
+
+.big-section {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.big-section .product-box {
+    max-width: 392px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.09);
+}
+
+
+
+/* =====================================================video-page section=========================================================== */
+/* 
+.swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 450px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+
+.swiper-button-next {
+    position: absolute;
+    top: 95%;
+    right: 35%;
+
+
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 95%;
+    left: 35%;
+
+}
+
+
+.heading-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading-video h1 {
+    color: #333;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 85.938% */
 }

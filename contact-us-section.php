@@ -29,13 +29,6 @@
             </div>
 
 
-
-
-
-
-
-
-
         </div>
         <div class="address-box">
 
