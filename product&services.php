@@ -51,7 +51,7 @@ include "header.php";
 
 
 
-  <div class="product-boxes big-section side-padding width-p">
+  <div class="product-boxes big-section side-padding width-p hide-scroll">
 
 
     <div class="product-box dark">

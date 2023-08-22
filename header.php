@@ -10,7 +10,7 @@ function isCurrentPage($pageName)
 ?>
         <a href="./index.php">
             <img class="main-logo" src="./assets/img/nav-logo.png" alt=""></a>
-        <img class='burger-btn' src="./imgs/burger-btn.png" alt="burger-manu">
+        <img class='burger-btn' src="./assets/img/fluent_options_24_filled.png" alt="burger-manu">
         <ul class='nav-list '>
             <li><a <?php if (isCurrentPage('index.php')) echo 'class="active-nav"' ; ?> href="./index.php" > Home</a>
             </li>

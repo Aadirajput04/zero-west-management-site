@@ -1,12 +1,12 @@
-<section class="main-video-section width-p">
+<section class="main-video-section width-p side-padding">
     <h1>Latest Videos</h1>
 
 
-    <div class="video-heading">
+    <div class="video-heading hide-scroll">
 
         <div class="video-box">
             <div class="vid-up">
-                <iframe width="396" height="230" src="https://www.youtube.com/embed/P54AnXyRHNg"
+                <iframe src="https://www.youtube.com/embed/P54AnXyRHNg"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
@@ -20,7 +20,7 @@
         </div>
         <div class="video-box">
             <div class="vid-up">
-                <iframe width="396" height="230" src="https://www.youtube.com/embed/P54AnXyRHNg"
+                <iframe src="https://www.youtube.com/embed/P54AnXyRHNg"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
@@ -34,7 +34,7 @@
         </div>
         <div class="video-box">
             <div class="vid-up">
-                <iframe width="396" height="230" src="https://www.youtube.com/embed/P54AnXyRHNg"
+                <iframe src="https://www.youtube.com/embed/P54AnXyRHNg"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>

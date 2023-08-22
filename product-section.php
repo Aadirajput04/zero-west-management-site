@@ -1,7 +1,7 @@
 <section class="product-main-box width-p">
 
     <h1>Products & Services</h1>
-    <div class="product-boxes">
+    <div class="product-boxes hide-scroll">
 
 
         <div class="product-box">

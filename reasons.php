@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="box right">
-        <img src="./assets/img/reason-big-img.png" alt="" width="492" height="660">
+        <img class="big-img-1" src="./assets/img/reason-big-img.png" alt="" >
         <div class="small-img"><img src="./assets/img/small-img-resons.png" alt=""></div>
     </div>
 </div>

@@ -38,7 +38,7 @@
         </div>
 
     </section>
-    <section class="main-blog-container width-p">
+    <section class="main-blog-container width-p side-padding">
 
         <div class="blog-text">
             <h1>OUR BLOGS</h1>
