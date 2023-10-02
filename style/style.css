@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     padding: 0;
@@ -81,7 +80,7 @@ body {
     color: #fff;
     background-color: #70B55C;
     /* border: 1px solid #D1B06B; */
-
+    gap: 15px;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
@@ -211,16 +210,15 @@ header li {
 
 
 /* ==================================================reasons seciton starts here========================================== */
-
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    padding-left: 5rem;
-    padding-right: 1.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    gap: 40px;
 }
 
 .container h2 {
@@ -234,7 +232,7 @@ header li {
 }
 
 .container .box {
-    flex-basis: 55%;
+
     position: relative;
 
     padding: 10px;
@@ -243,13 +241,10 @@ header li {
     gap: 1rem;
 }
 
-
 .container .right {
-    flex-basis: 45%;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: flex-end;
 }
 
 .container .tabs {
@@ -259,14 +254,11 @@ header li {
 }
 
 .container .tab {
-    padding: 14px 27px;
-
+    padding: 22px 36px;
     border-radius: 5px;
     background: #FEFEFE;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
     cursor: pointer;
-
-
     color: #333;
     font-family: 'Rajdhani', sans-serif;
     font-size: 36px;
@@ -285,14 +277,11 @@ header li {
 
 }
 
-
-
 .small-img {
     top: 0;
     position: absolute;
-    right: 30px;
+    right: -10px;
 }
-
 
 
 
@@ -398,6 +387,7 @@ p {
     text-decoration: none;
     flex-direction: row;
     align-items: center;
+    gap: 15px;
     border-radius: 10px;
     border: none;
     color: #fff;
@@ -417,14 +407,10 @@ p {
     position: absolute;
     top: -4%;
     max-width: 238px;
-    padding: 0px 22px;
+    padding: 3px 22px;
     align-items: center;
     color: #70B55C;
-
-
 }
-
-
 
 .dustbin-people {
     position: absolute;
@@ -449,7 +435,7 @@ p {
 
 .main-video-section {
     /* height: 90vh; */
-    margin-top: 3rem;
+    margin-top: 80px;
 
     display: flex;
     flex-wrap: wrap;
@@ -461,7 +447,7 @@ p {
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 100px 100px;
 
 
 }
@@ -479,7 +465,7 @@ p {
 
 .main-video-section .video-heading {
     display: flex;
-    gap: 1.5rem;
+    gap: 26px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -513,16 +499,14 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.8rem;
+    gap: 30px;
 }
 
 .main-video-section iframe {
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
-    width: 396px;
-    height: 230px;
-
-
+    width: 420px;
+    height: 275px;
 }
 
 /* =======================================head-main section starts here===============================================
@@ -669,7 +653,7 @@ p {
 
 .main-blog-container {
     display: flex;
-    margin-top: 2rem;
+
     padding-bottom: 5rem;
     background-color: #fff;
     flex-direction: column;
@@ -755,12 +739,13 @@ p {
 /* ===========================================testimonials section :start here============================== */
 .testimonials {
     display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: row;
-    gap: 3rem;
+    gap: 70px;
+    margin-bottom: 80px;
     background-color: #F7F7F7;
 }
 
@@ -775,7 +760,7 @@ p {
     flex-basis: 55%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+
 }
 
 .testimonials .user-info {
@@ -803,6 +788,17 @@ p {
     /* 152.381% */
 }
 
+.coma-png {
+    position: absolute;
+    top: 16px;
+    right: 16px
+}
+
+.testimonials .user-info p {
+    padding-top: 0;
+}
+
+
 .testimonials h1 {
     color: #000;
     font-family: 'Rajdhani', sans-serif;
@@ -815,21 +811,27 @@ p {
 .left-testi .first-testi {
     background-color: #fff;
     padding: 15px;
+    position: relative;
 }
 
 .right-testi button {
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     font-style: normal;
-    padding: 8px 16px !important;
+    padding: 15px 30px !important;
     font-weight: 600;
     line-height: normal;
     background-color: #70b55c;
     max-width: max-content;
     border-radius: 5px;
     border: none;
+    margin-top: 30px;
 }
 
 .right-testi .testi-head-text {
@@ -845,16 +847,143 @@ p {
 
 /* ===========================================================product section start here==================== */
 
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 80px;
+}
+
+.product-details-box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 50px;
+
+}
+
+.right-info-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-info-heading h5 {
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.price-box-row {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-box h6 {
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;border-radius: 10px 10px 0px 0px;
+    background: #F4F4F4;
+}
+
+.detail-box p {
+    color: #7F7F7F !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    padding: 10px 20px;
+}
+
+.price-box-row p {
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right-info-heading p {
+    color: #000;
+    font-family: 'Rajdhani', sans-serif;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.infos {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.product-details-container h2 {
+    color: #333;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 85.938% */
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-info-page .big-section {
+    flex-wrap: nowrap !important;
+}
 
 .product-main-box {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 50px;
     align-items: center;
-    padding: 3rem;
-    margin-bottom: 4rem;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -864,7 +993,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 26px;
 }
 
 
@@ -953,6 +1082,7 @@ p {
 
 .product-main-box a {
     display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
@@ -1221,21 +1351,18 @@ footer .copyright-box a {
     height: 560px;
     position: relative;
     width: 710px;
-    padding: 40px 47px 40px 40px;
+    padding: 40px 57px 100px 16px;
     border-radius: 10px;
     background: #ffffff;
     box-shadow: 19.27861213684082px 20.049755096435547px 77.11444854736328px 0px rgba(41, 95, 131, 0.08);
     backdrop-filter: blur(25.44776725769043px);
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-
-
-
-
+    gap: 19;
 }
 
 .contact-form h1 {
+    margin-bottom: 9px;
     color: #202636;
     font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
@@ -1306,7 +1433,7 @@ footer .copyright-box a {
 
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 38px;
 }
 
 
@@ -1319,8 +1446,9 @@ footer .copyright-box a {
 
 .address-box p {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 20px;
     color: #FFF;
     font-family: 'Rajdhani', sans-serif;
     font-size: 21px;
@@ -1431,7 +1559,7 @@ footer .copyright-box a {
 }
 
 .big-section .product-box {
-    min-width: 392px;
+    max-width: 396px;
     padding: 20px;
     border-radius: 10px;
     background: #FFF;
@@ -2555,198 +2683,222 @@ a {
     }
 
     .container .tab {
-      padding: 8px;
+        padding: 8px;
 
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
-    .container .box{
+
+    .container .box {
         padding: 0;
     }
-.box-left{
-    margin-top: 15px;
-}
 
-.text-down h3{
-    color: #333;
-text-align: center;
+    .box-left {
+        margin-top: 15px;
+    }
 
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-.main-video-section h1{
-    color: #333;
+    .text-down h3 {
+        color: #333;
+        text-align: center;
 
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-}
-.main-video-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.product-main-box h1{
-    color: #333;
-  
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 
-}
-.product-main-box{
-    gap: 0;
-}
-.product-main-box h3{
-   
+    .main-video-section h1 {
+        color: #333;
 
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
 
-.product-main-box p{
-   
+    .main-video-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
+    .product-main-box h1 {
+        color: #333;
 
-.product-main-box .product-box .prodcut-text{
-    gap: 8px;
-    padding: 15px;
-}
-.testimonials h1{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
 
- 
-text-align: center;
+    }
 
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-}
+    .product-main-box {
+        gap: 0;
+    }
 
-.right-testi .testi-head-text{
-font-size: 12px;
-font-style: normal;
-font-weight: 600;
-line-height: 16px; /* 133.333% */
-letter-spacing: 2px;
-}
-.testimonials p{
-    color: #333;
-text-align: center;
+    .product-main-box h3 {
 
-font-size: 13px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px; /* 153.846% */
-}
 
-.testimonials .right-testi{
-    gap: 5px;
-}
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 
-.right-testi button{
-    color: var(--white, #FFF);
-text-align: center;
+    .product-main-box p {
 
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-.blog-text h1{
-    color: #333;
 
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-}
-.blog-box .blog-img img {
-    border-radius: 0px 10px;
-    max-width: 260px;
-}
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 
-.address-box p{
-    color: #FFF;
+    .product-main-box .product-box .prodcut-text {
+        gap: 8px;
+        padding: 15px;
+    }
 
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30.846px; /* 237.275% */
+    .testimonials h1 {
 
-    
-}
-.contact-form{
-    margin-top: 35px;
-}
-.contact-form {
-    width: 360px;
-    height: 100%;
-    padding: 10px;
-    gap: 0.5rem;
-}
 
-footer .copyright-box .right-copyright{
-    gap: 5px;
-}
-.container{
-    gap: 30px;
-}
-.head-main h1{
+        text-align: center;
 
-color: var(--white, #FFF);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
 
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    .right-testi .testi-head-text {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        /* 133.333% */
+        letter-spacing: 2px;
+    }
 
-}.head-maintext-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 59px;
-    position: relative;
-}
-.small-head-text img {
-    position: absolute;
-    bottom: -100%;
-    width: 55%;
-}.small-head-text {
-    padding: 29px 13px;
-}
+    .testimonials p {
+        color: #333;
+        text-align: center;
 
-.navbar {
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 153.846% */
+    }
 
-.product-boxes{
-    padding-top: 10px;
-}
-.big-section .product-box {
-    min-width: 340px;
-    padding: 20px;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.09);
-}
+    .testimonials .right-testi {
+        gap: 5px;
+    }
+
+    .right-testi button {
+        color: var(--white, #FFF);
+        text-align: center;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .blog-text h1 {
+        color: #333;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .blog-box .blog-img img {
+        border-radius: 0px 10px;
+        max-width: 260px;
+    }
+
+    .address-box p {
+        color: #FFF;
+
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30.846px;
+        /* 237.275% */
+
+
+    }
+
+    .contact-form {
+        margin-top: 35px;
+    }
+
+    .contact-form {
+        width: 360px;
+        height: 100%;
+        padding: 10px;
+        gap: 0.5rem;
+    }
+
+    footer .copyright-box .right-copyright {
+        gap: 5px;
+    }
+
+    .container {
+        gap: 30px;
+    }
+
+    .head-main h1 {
+
+        color: var(--white, #FFF);
+
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .head-maintext-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 59px;
+        position: relative;
+    }
+
+    .small-head-text img {
+        position: absolute;
+        bottom: -100%;
+        width: 55%;
+    }
+
+    .small-head-text {
+        padding: 29px 13px;
+    }
+
+    .navbar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .product-boxes {
+        padding-top: 10px;
+    }
+
+    .big-section .product-box {
+        min-width: 340px;
+        padding: 20px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.09);
+    }
 
 
 

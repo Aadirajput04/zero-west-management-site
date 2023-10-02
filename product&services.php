@@ -62,7 +62,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More <img src="./assets/img/right-arrow-1.svg" alt=""></a>
+        <a href="./product-info.php">Find Out More <img src="./assets/img/right-arrow-1.svg" alt=""></a>
       </div>
     </div>
     <div class="product-box">
@@ -73,7 +73,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -84,7 +84,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices. </p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
 
@@ -96,7 +96,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -107,7 +107,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -118,7 +118,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices. </p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
 
@@ -130,7 +130,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -141,7 +141,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -152,7 +152,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices. </p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
 
@@ -165,7 +165,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -176,7 +176,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices.</p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
     <div class="product-box">
@@ -187,7 +187,7 @@ include "header.php";
           accumsan, augue sapien porta tortor, at interdum ligula elit nec lorem. Praesent tristique, neque in
           cursus venenatis, ante leo scelerisque lorem, vel aliquet purus est eu eros. Curabitur lobortis eu
           elit id ultrices. </p>
-        <a href="">Find Out More </a>
+        <a href="./product-info.php">Find Out More </a>
       </div>
     </div>
 
